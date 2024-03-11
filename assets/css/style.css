@@ -1,0 +1,32 @@
+:root {
+    --amarillo: #ffc803;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+body {
+    background-color: bisque;
+    font-family: quicksand;
+}
+
+h1 { 
+    color: var(--negro);
+    text-align: center;
+    margin: 3rem;
+}
+
+#botones {
+    text-align: center;
+}
+
+.boton {
+    background-color: var(--amarillo);
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 1rem 2rem 0rem 2rem;
+}
+
+#botones .boton:hover {
+    background-color: var(--amarillo);
+    color: var(--negro);
+}
